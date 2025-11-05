@@ -1,0 +1,19 @@
+.category-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.category-card {
+  background: #f3f3f3;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  padding: 1rem 2rem;
+  min-width: 200px;
+  text-align: center;
+  transition: box-shadow 0.2s;
+}
+.category-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.16);
+}
